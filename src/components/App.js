@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Routes from "./routes/Routes";
 import Navigation from "./layout/Navigation";
 import Footer from "./layout/Footer";

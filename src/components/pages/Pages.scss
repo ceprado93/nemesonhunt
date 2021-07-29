@@ -1,0 +1,788 @@
+// BANNER
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  width: calc(100vw - 6rem);
+  background-color: #202020;
+  height: 2rem;
+  .banner__info {
+    display: flex;
+    align-items: center;
+    color: white;
+    button {
+      border: none;
+      border-radius: 50px;
+      padding: 0.8rem 3rem;
+      background-color: #287afe;
+      color: white;
+      margin: 0 2rem;
+    }
+  }
+}
+
+// HERO
+
+.hero {
+  width: 100vw;
+  height: calc(100vh - 4em);
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  h1 {
+    font-family: helveticaMedium;
+    font-size: 3.8rem;
+  }
+  img {
+    height: 35%;
+  }
+  h2 {
+    font-family: helveticaMedium;
+    font-size: 2.7rem;
+  }
+}
+
+// SECOND SECTION
+
+.second__section {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url(../assets/hunterhunt.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  position: relative;
+  .text__wrapper {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    width: 30vw;
+    text-align: center;
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 2.7rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-family: helveticaMedium;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+// INTELIGENT SECTION
+
+.inteligent__section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9baaa8;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .text__wrapper {
+    width: 50vw;
+    padding-left: 5rem;
+
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 3rem;
+      margin: 1rem 0;
+      color: black;
+      span {
+        color: #f4751d;
+      }
+    }
+    p {
+      font-family: helveticaMedium;
+      font-size: 1.2rem;
+    }
+  }
+  .bottom_wrapper {
+    padding-left: 5rem;
+    p {
+      font-family: helveticaMedium;
+      font-size: 1.2rem;
+      color: black;
+    }
+    button {
+      border: none;
+      border-radius: 50px;
+      padding: 1rem 3.5rem;
+      background-color: #287afe;
+      color: white;
+    }
+  }
+  img {
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    width: 45%;
+    transform: rotate(-15deg);
+  }
+}
+
+// COLOR SECTION
+
+.color__section {
+  width: calc(100vw - 10rem);
+  height: auto;
+  background: linear-gradient(#f6efe4, #ddceb9);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 0 5rem;
+  h2 {
+    font-family: helveticaMedium;
+    font-size: 3rem;
+    margin: 6rem 0 2rem 0;
+  }
+  //   .colors__div {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //     justify-content: center;
+  //     width: 60%;
+  //     article {
+  //       width: 300px;
+  //       height: 300px;
+  //       background-color: white;
+  //       margin: 2rem;
+  //       position: relative;
+  //       img {
+  //         width: 80%;
+  //         display: block;
+  //         margin: 0 auto;
+  //         margin-top: 32%;
+  //       }
+  //     }
+
+  .product__imgs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    article {
+      width: 80%;
+      height: 400px;
+      background-color: white;
+      margin: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .nemeson__bigImg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .productImg__small {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      img {
+        height: 12vh;
+        width: 20%;
+        object-fit: contain;
+        background-color: white;
+        margin: 0 1rem;
+      }
+
+      .img__inActive {
+        opacity: 0.4;
+      }
+    }
+  }
+
+  p {
+    font-family: helveticaMedium;
+    font-size: 1.4rem;
+    margin: 3rem 5rem;
+  }
+  button {
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 3.5rem;
+    background-color: #287afe;
+    color: white;
+    margin-bottom: 5rem;
+  }
+}
+
+// DISPOSITIVOS SECTION
+
+.dispositivos__section {
+  text-align: center;
+  margin: 6rem 0;
+
+  h2 {
+    font-family: helveticaMedium;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-family: helveticaMedium;
+    font-size: 1.4rem;
+  }
+}
+
+// PERSONALIZABLE SECTION
+
+.personalizable__section {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 3rem 0;
+
+  h2 {
+    font-family: helveticaMedium;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+// MEDIDA SECTION
+
+.medida__section {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5rem 0;
+
+  h2 {
+    font-family: helveticaMedium;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 4rem;
+    span {
+      color: #f4751d;
+    }
+  }
+}
+
+// SIMULATION SECTION
+
+.experience__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem;
+
+  h2 {
+    font-family: helveticaMedium;
+    font-size: 2.7rem;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-family: helveticaMedium;
+    font-size: 1rem;
+    margin: 2rem 0 3rem 0;
+  }
+}
+
+// CONTACT SECTION
+
+.contact__section {
+  width: calc(100% - 10em);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em;
+  h2 {
+    font-size: 2.3em;
+    font-weight: 500;
+    margin-bottom: 0.2em;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .form__wrapper {
+    width: 55%;
+    max-width: 600px;
+    margin-bottom: 2em;
+    form {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      .short__input {
+        background-color: #f4f4f4;
+        width: calc(100% / 2 - 2.5em);
+        min-height: 2em;
+        margin-bottom: 1em;
+        padding: 1em;
+        border-radius: 5px;
+        border: none;
+      }
+      .long__input {
+        background-color: #f4f4f4;
+        width: 100%;
+        min-height: 2em;
+        margin-bottom: 1em;
+        padding: 1em;
+        border-radius: 5px;
+        border: none;
+      }
+      textarea {
+        background-color: #f4f4f4;
+        width: 100%;
+        height: 10em;
+        margin-bottom: 3rem;
+        padding: 1em;
+        border-radius: 5px;
+        color: #757575;
+        border: none;
+      }
+      button {
+        background-color: #287afe;
+        padding: 0.5em 2em;
+        border-radius: 50px;
+        font-size: 1em;
+        cursor: pointer;
+        color: white;
+        transition: all 0.5s ease;
+        margin: auto;
+        border: none;
+      }
+      button:hover {
+        color: #ffe419;
+      }
+      ::placeholder {
+        text-transform: uppercase;
+        font-family: helveticaLight;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    img {
+      height: 25%;
+    }
+  }
+  // SECOND SECTION
+
+  .second__section {
+    height: 60vh;
+
+    .text__wrapper {
+      left: 45%;
+      width: 45vw;
+    }
+  }
+
+  .experience__section {
+    img {
+      width: 100%;
+    }
+  }
+
+  // INTELIGENT SECTION
+
+  .inteligent__section {
+    height: 70vh;
+  }
+
+  //   COLORS SECTION
+
+  .color__section {
+    // .colors__div {
+    //   width: 80%;
+    //   article {
+    //     width: 250px;
+    //     height: 250px;
+    //   }
+    // }
+    .product__imgs {
+      width: 80%;
+
+      article {
+        width: 80%;
+        height: 300px;
+      }
+      .productImg__small {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        img {
+          height: 10vh;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  // SECOND SECTION
+
+  .second__section {
+    height: 70vh;
+
+    .text__wrapper {
+      width: 50vw;
+    }
+  }
+
+  .experience__section {
+    img {
+      width: 100%;
+    }
+  }
+
+  // INTELIGENT SECTION
+
+  .inteligent__section {
+    height: 85vh;
+  }
+
+  //   //   COLORS SECTION
+
+  //   .color__section {
+  //     .colors__div {
+  //       width: 90%;
+  //       article {
+  //         width: 200px;
+  //         height: 200px;
+  //       }
+  //     }
+  //   }
+
+  // DISPOSITIVOS SECTION
+
+  .dispositivos__section {
+    margin: 6rem;
+    p {
+      margin: 1rem 3rem;
+    }
+  }
+
+  // PERSONALIZABLE SECTION
+
+  .personalizable__section {
+    p {
+      margin: 1rem 8rem;
+    }
+  }
+
+  // CONTACT SECTION
+
+  .contact__section {
+    .form__wrapper {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 675px) {
+  // BANNER
+
+  .banner {
+    padding: 1rem;
+    width: calc(100vw - 2rem);
+    img {
+      width: 30%;
+      object-fit: contain;
+    }
+    .banner__info {
+      button {
+        padding: 0.5rem 1rem;
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  // HERO
+
+  .hero {
+    width: 100vw;
+    height: calc(100vh - 4em);
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h1 {
+      font-family: helveticaMedium;
+      font-size: 3.6rem;
+    }
+    img {
+      height: 15%;
+    }
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 1.2rem;
+    }
+  }
+
+  // SECOND SECTION
+
+  .second__section {
+    width: 100vw;
+    height: 100vh;
+
+    .text__wrapper {
+      position: initial;
+      left: 0%;
+      top: 0%;
+      width: 80vw;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      h2 {
+        font-family: helveticaMedium;
+        font-size: 2.7rem;
+        margin-bottom: 2rem;
+        margin-top: 0;
+        padding-top: 2rem;
+      }
+      p {
+        font-family: helveticaMedium;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  // INTELIGENT SECTION
+
+  .inteligent__section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9baaa8;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .text__wrapper {
+      width: 80vw;
+      padding-left: 1rem;
+
+      h2 {
+        font-family: helveticaMedium;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: black;
+        span {
+          color: #f4751d;
+        }
+      }
+      p {
+        font-family: helveticaMedium;
+        font-size: 1rem;
+      }
+    }
+    .bottom_wrapper {
+      padding-left: 2rem;
+      p {
+        font-family: helveticaMedium;
+        font-size: 1.2rem;
+        color: black;
+      }
+      button {
+        border: none;
+        border-radius: 50px;
+        padding: 1rem 3.5rem;
+        background-color: #287afe;
+        color: white;
+      }
+    }
+    img {
+      position: absolute;
+      right: 35%;
+      bottom: 30%;
+      width: 45%;
+      transform: rotate(-15deg);
+    }
+  }
+
+  // COLOR SECTION
+
+  .color__section {
+    width: calc(100vw - 2rem);
+    height: auto;
+    background: linear-gradient(#f6efe4, #ddceb9);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 2.5rem;
+      margin: 6rem 0 2rem 0;
+    }
+    .colors__div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 85%;
+      article {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        margin: 1rem;
+        position: relative;
+        img {
+          width: 80%;
+          display: block;
+          margin: 0 auto;
+          margin-top: 32%;
+        }
+      }
+    }
+
+    p {
+      font-family: helveticaMedium;
+      font-size: 1rem;
+      margin: 3rem 2rem;
+    }
+    button {
+      border: none;
+      border-radius: 50px;
+      padding: 1rem 3.5rem;
+      background-color: #287afe;
+      color: white;
+      margin-bottom: 5rem;
+    }
+  }
+
+  // DISPOSITIVOS SECTION
+
+  .dispositivos__section {
+    text-align: center;
+    margin: 2rem 0;
+
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
+    p {
+      font-family: helveticaMedium;
+      font-size: 1rem;
+    }
+  }
+
+  // PERSONALIZABLE SECTION
+
+  .personalizable__section {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
+
+    img {
+      width: 50%;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 1rem;
+    }
+  }
+
+  // MEDIDA SECTION
+
+  .medida__section {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5rem 0;
+
+    h2 {
+      font-family: helveticaMedium;
+      font-size: 2.5rem;
+      margin-bottom: 5rem;
+    }
+
+    img {
+      width: 30%;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 2rem;
+      span {
+        color: #f4751d;
+      }
+    }
+  }
+
+  // SIMULATION SECTION
+
+  .experience__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    p {
+      font-family: helveticaMedium;
+      font-size: 1rem;
+      margin: 2rem 0 3rem 0;
+    }
+  }
+
+  // CONTACT SECTION
+
+  .contact__section {
+    width: calc(100% - 2em);
+    margin: 1em;
+    .form__wrapper {
+      width: 80%;
+      max-width: 600px;
+      margin-bottom: 2em;
+      form {
+        width: 100%;
+        .short__input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
